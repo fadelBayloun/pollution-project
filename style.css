@@ -43,13 +43,14 @@ body {
 
 .causes-city-bottom{
   display: flex;
+  justify-content: center;
   align-items: center;
   gap: 5%;
 }
 
 .causes-city-button{
-  width: 20%;
-  height: 20%;
+  width: 5%;
+  height: 10%;
   background-color: yellow;
   border-radius: 50%;
   align-self: flex-end;
@@ -57,9 +58,23 @@ body {
 
 .causes-city-parahraph{
   display: flex;
+  flex-direction: row;
+  align-items: center;
   justify-content: center;
 }
 
 .causes-text{
   background-color: grey;
+}
+
+.causes-village{
+  width: 95%;
+  height: 100vh;
+}
+
+.causes-village-background{
+  display: flex;
+  justify-content: space-evenly;
+  z-index: -1;
+  align-items: center;
 }
