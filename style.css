@@ -115,3 +115,74 @@ header {
   font-size: 18px;
   margin: 5px 0;
 }
+
+.causes{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.causes-paragraph{
+  background-color: grey;
+  margin: 2.5%;
+}
+
+.causes-title{
+  color: green;
+}
+
+.causes-city{
+  width: 95%;
+  height: 100vh;
+  padding-left: 5%;
+  padding-right: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.causes-city-image{
+  width: 95%;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+}
+
+.causes-city-bottom{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5%;
+}
+
+.causes-city-button{
+  width: 5%;
+  height: 10%;
+  background-color: yellow;
+  border-radius: 50%;
+  align-self: flex-end;
+}
+
+.causes-city-parahraph{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.causes-text{
+  background-color: grey;
+}
+
+.causes-village{
+  width: 95%;
+  height: 100vh;
+}
+
+.causes-village-background{
+  display: flex;
+  justify-content: space-evenly;
+  z-index: -1;
+  align-items: center;
+}
