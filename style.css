@@ -5,10 +5,10 @@
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
-
 body {
   background-color: black;
   font-family: "Ubuntu", sans-serif;
+  color: #fff;
 }
 
 .header-section-mountain {
@@ -91,4 +91,26 @@ header {
   z-index: 3;
   color: white;
   font-size: 6em;
+}
+
+.about-container, .types-section {
+  margin: 20px;
+  padding: 20px;
+  background-color: #333;
+  border-radius: 10px;
+}
+
+.about h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.about ul {
+  list-style-type: circle;
+  padding-left: 20px;
+}
+
+.about li {
+  font-size: 18px;
+  margin: 5px 0;
 }
