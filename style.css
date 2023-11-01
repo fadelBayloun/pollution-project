@@ -93,7 +93,8 @@ header {
   font-size: 6em;
 }
 
-.about-container, .types-section {
+.about-container,
+.types-section {
   margin: 20px;
   padding: 20px;
   background-color: #333;
