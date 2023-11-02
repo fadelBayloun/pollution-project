@@ -1,0 +1,23 @@
+.parallax-solutions {
+    background-image: url('/assests/images/back.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    overflow: hidden;
+    position: relative;
+    animation: moveAir 10s linear infinite;
+  }
+  
+  @keyframes moveAir {
+    0% {
+      background-position: center 0%;
+    }
+    50% {
+        background-position: center 50%;
+      }
+    100% {
+      background-position: center 100%;
+    }
+  }
+
+  
