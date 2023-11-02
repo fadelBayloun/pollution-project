@@ -211,6 +211,11 @@ header {
   align-items: center;
 }
 
+.causes-village-background img {
+  width: calc(100% / 3);
+  height: 300px;
+}
+
 .causes-city {
   width: 95%;
   height: 100vh;
