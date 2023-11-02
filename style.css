@@ -6,4 +6,20 @@
 
 body {
   background-color: black;
+  color: white;
+}
+
+#demo-text {
+  text-align: center;
+  font-size: 80px;
+  font-weight: 700;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-image: url("https://sensorex.com/wp-content/uploads/2021/11/rainwater-on-ground-reflection.jpg");
+}
+
+#demo-list {
+  text-align: center;
+  font-size: 25px;
 }
