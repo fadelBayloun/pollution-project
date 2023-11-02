@@ -4,6 +4,13 @@
   box-sizing: border-box;
 }
 
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+body {
+  background-color: black;
+  font-family: "Ubuntu", sans-serif;
+  color: #fff;
+}
+
 .solutions{
   display:grid;
   justify-content: center;
@@ -38,14 +45,15 @@
   font-size: 36px; 
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
 }
+
 .solutions h5{
   font-size: larger;
   color: #a6a6a6;
   margin-top: 10%;
   width: 70vh;
 }
+
 .solutions h3{
- 
   font-size: larger;
   color: #f1f1f1;
   margin-top: 10%;
@@ -64,7 +72,6 @@
 }
 
 .solutions .row{
- 
   margin: 30px;
 }
 .solutions .card:hover {
@@ -78,4 +85,178 @@
     display: block;
     margin-bottom: 20px;
   }
+
+.header-section-mountain {
+  width: 100vw;
+  height: 100vh;
+}
+
+header {
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+  perspective: 10px;
+}
+
+.header-container ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.header-container li {
+  float: left;
+}
+
+.header-container li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 18px 36px;
+  text-decoration: none;
+  font-size: 2em;
+  color: white;
+}
+
+.header-container li a:hover {
+  background-color: #111;
+  color: white;
+}
+
+.header-section {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  transform-style: preserve-3d;
+  z-index: -1;
+}
+
+.header-section-hole,
+.header-section-mountain,
+.header-section-earth {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.header-section-mountain {
+  transform: translateZ(-20px) scale(4);
+}
+
+.header-section-hole {
+  transform: translateZ(-10px) scale(2);
+  z-index: 1;
+  height: auto;
+  width: 50%;
+  top: 0;
+}
+
+.header-section-earth {
+  transform: translateZ(-5px) scale(1.5);
+  z-index: 2;
+  height: auto;
+  width: 15%;
+}
+
+.header-section h1 {
+  z-index: 3;
+  color: white;
+  font-size: 6em;
+}
+
+.about-container, .types-section {
+  margin: 20px;
+  padding: 20px;
+  background-color: #333;
+  border-radius: 10px;
+}
+
+.about h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.about ul {
+  list-style-type: circle;
+  padding-left: 20px;
+}
+
+.about li {
+  font-size: 18px;
+  margin: 5px 0;
+}
+
+.causes{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.causes-paragraph{
+  background-color: grey;
+  margin: 2.5%;
+}
+
+.causes-title{
+  color: green;
+}
+
+.causes-city{
+  width: 95%;
+  height: 100vh;
+  padding-left: 5%;
+  padding-right: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.causes-city-image{
+  width: 95%;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+}
+
+.causes-city-bottom{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5%;
+}
+
+.causes-city-button{
+  width: 5%;
+  height: 10%;
+  background-color: yellow;
+  border-radius: 50%;
+  align-self: flex-end;
+}
+
+.causes-city-parahraph{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.causes-text{
+  background-color: grey;
+}
+
+.causes-village{
+  width: 95%;
+  height: 100vh;
+}
+
+.causes-village-background{
+  display: flex;
+  justify-content: space-evenly;
+  z-index: -1;
+  align-items: center;
 }
