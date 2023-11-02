@@ -4,6 +4,7 @@
   box-sizing: border-box;
 }
 
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
 body {
   background-color: black;
   color: white;
